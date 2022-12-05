@@ -3,14 +3,7 @@ from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoad
 from datetime import date
 import streamlit as st
 from streamlit.components.v1 import iframe
-import aspose.words as aw
 
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.insert_image("MY.png")
-
-doc.save("index.html")
 
 st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certificate Generator")
 st.title("👨‍🎓 RAMOND CERTIFICATE GENERATOR")
