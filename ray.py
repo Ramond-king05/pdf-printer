@@ -49,7 +49,7 @@ if submit:
     right.download_button(
         "⬇️ Download PDF",
         data=pdf,
-        file_name="diploma.pdf",
+        file_name="CERTIFICATE.PDF",
         mime="application/octet-stream",
     )
     
