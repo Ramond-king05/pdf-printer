@@ -37,8 +37,7 @@ if choice == "Home":
     grade = form.slider("Grade", 1, 100, 60)
     submit = form.form_submit_button("Generate PDF")
 
-     
-   if submit:
+if submit:
     
         
     html = template.render(
@@ -59,7 +58,8 @@ right.download_button(
 data=pdf,
 file_name="CERTIFICATE.PDF",
 mime="application/octet-stream",
-)
+)     
+  
     
     
 else:
