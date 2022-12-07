@@ -9,7 +9,7 @@ menu = ["Home","About"]
 choice = st.sidebar.selectbox("Menu",menu)
 
 if choice == "Home":
-    st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certificate Generator")
+    #st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certificate Generator")
     st.title("👨‍🎓 RAMOND CERTIFICATE GENERATOR")
 
     st.write(
