@@ -70,7 +70,7 @@ else:
     I'M A MACHINE LEARNING AND ARTIFICIAL INTELLIGIENCE DEVELOPER.
     I CREATED THIS APPLICATION SO AS TO HELP PEOPLE TO BE ABLE TO PRINT OUT CERTIFICATE IN PDF FORMAT.
             ''')
-    image = Image.open("my (2).jpg")
+    image =("my (2).jpg")
     st.image(image,caption=None, width=490, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
     
     
