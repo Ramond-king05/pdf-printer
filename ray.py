@@ -38,7 +38,8 @@ if choice == "Home":
     submit = form.form_submit_button("Generate PDF")
 
      
-    if submit:
+    elif submit:
+        
         
         html = template.render(
         student=student,
