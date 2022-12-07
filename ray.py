@@ -9,7 +9,7 @@ st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certi
 st.title("👨‍🎓 RAMOND CERTIFICATE GENERATOR")
 
 st.write(
-    "This app shows you how you can use Streamlit to make a PDF generator app in just a few lines of code!"
+    "This app was created by Fasasi Abdul-Rahman for the purpose making your cerificate in pdf"
  )
 
 left, right = st.columns(2)
