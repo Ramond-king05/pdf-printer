@@ -39,7 +39,7 @@ if choice == "Home":
 
      
 
-    
+    submit="html"
         
     html = template.render(
     student=student,
@@ -48,7 +48,7 @@ if choice == "Home":
     date=date.today().strftime("%B %d, %Y"),
     )
     
-    submit= "html"
+    
 
     pdf = pdfkit.from_string(html, False)
     st.balloons()
