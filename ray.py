@@ -8,7 +8,7 @@ from streamlit.components.v1 import iframe
 menu = ["Home","About"]
 choice = st.sidebar.selectbox("Menu",menu)
 
-def choice  "Home":
+if choice == "Home":
     st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certificate Generator")
     st.title("👨‍🎓 RAMOND CERTIFICATE GENERATOR")
 
@@ -61,7 +61,7 @@ mime="application/octet-stream",
 )     
   
     
-    
+choice = st.sidebar.selectbox("Menu",menu)    
 if choice == "About":
     st.subheader("ABOUT THE DEVELOPER")
     st.text('''
