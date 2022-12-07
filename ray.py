@@ -50,18 +50,17 @@ if choice == "Home":
     
     submit= "html"
 
-pdf = pdfkit.from_string(html, False)
-st.balloons()
-
-right.success("🎉 Your diploma was generated!")
+    pdf = pdfkit.from_string(html, False)
+    st.balloons()
+    right.success("🎉 Your diploma was generated!")
     # st.write(html, unsafe_allow_html=True)
     # st.write("")
-right.download_button(
-"⬇️ Download PDF",
-data=pdf,
-file_name="CERTIFICATE.PDF",
-mime="application/octet-stream",
-)
+    right.download_button(
+        "⬇️ Download PDF",
+        data=pdf,
+        file_name="CERTIFICATE.PDF",
+        mime="application/octet-stream",
+    )
     
     
 else:
