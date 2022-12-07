@@ -62,7 +62,7 @@ mime="application/octet-stream",
   
     
     
-elif choice == "About":
+if choice == "About":
     st.subheader("ABOUT THE DEVELOPER")
     st.text('''
     MY NAME IS FASASI ABDULRAHMAN TEMITOPE.
