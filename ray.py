@@ -50,7 +50,7 @@ if choice == "Home":
     
         pdf = pdfkit.from_string(html, False)
         st.balloons()
-        right.success("🎉 Your diploma was generated!")
+        right.success("🎉 Your certificate was generated!")
         # st.write(html, unsafe_allow_html=True)
         # st.write("")
         right.download_button(
