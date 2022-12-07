@@ -69,7 +69,7 @@ else:
     I CREATED THIS APPLICATION SO AS TO HELP PEOPLE TO BE ABLE TO PRINT OUT CERTIFICATE IN PDF FORMAT.
             ''')
     image =("my (2).jpg")
-    st.image(image,caption=None, width=490, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
+    st.image(image,caption=None, width=490, use_column_width=1, clamp=False, channels="RGB", output_format="auto")
     
     
     st.subheader("ABOUT THE APP")
