@@ -37,7 +37,7 @@ if choice == "Home":
     grade = form.slider("Grade", 1, 100, 60)
     submit = form.form_submit_button("Generate PDF")
 
-if submit:
+elif submit:
     
         
     html = template.render(
@@ -62,7 +62,7 @@ mime="application/octet-stream",
   
     
     
-if:
+else:
     st.subheader("ABOUT THE DEVELOPER")
     st.text('''
     MY NAME IS FASASI ABDULRAHMAN TEMITOPE.
