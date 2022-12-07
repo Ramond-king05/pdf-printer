@@ -37,7 +37,7 @@ if choice == "Home":
     grade = form.slider("Grade", 1, 100, 60)
     submit = form.form_submit_button("Generate PDF")
 
-elif submit:
+if submit:
     
         
     html = template.render(
