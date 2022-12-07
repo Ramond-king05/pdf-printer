@@ -9,7 +9,7 @@ st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certi
 st.title("👨‍🎓 RAMOND CERTIFICATE GENERATOR")
 
 st.write(
-    "This app was created by Fasasi Abdul-Rahman for the purpose making your cerificate in pdf"
+    "This app was created by Fasasi Abdul-Rahman (A MACHINE LEARNING AND AI DEVELOPER) for the purpose generating your cerificate in pdf format"
  )
 
 left, right = st.columns(2)
