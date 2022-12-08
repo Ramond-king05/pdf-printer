@@ -77,5 +77,5 @@ else:
     st.text("POWERED BY:FASASI ABDULRAHMAN TEMITOPE")
     st.text("I can see that you are impressed after checking my work")
     st.text("Oya start bringing work ooo")
-    st.success("RAYTECH PROJECT")
+    st.success("MY LOGO.png", "RAYTECH PROJECT")
     st.balloons()    
