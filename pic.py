@@ -1,4 +1,4 @@
 import streamlit 
-image=("MY.png")
+image="MY.png"
 st.image("MY.png")
            
