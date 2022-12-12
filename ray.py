@@ -5,15 +5,6 @@ import streamlit as st
 from streamlit.components.v1 import iframe
 
 
-
-hide_streamlit_style = """
-            <style>
-            MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-             </style>
-             """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-
 st.set_page_config(layout="centered", page_icon="👨‍🎓", page_title="Certificate Generator")
 menu = ["Home","About"]
 choice = st.sidebar.selectbox("Menu",menu)
@@ -90,3 +81,14 @@ else:
     st.image("MY LOGO.png")
     st.success("RAYTECH PROJECT")
     st.balloons()    
+            
+hide_streamlit_style = """
+            <style>
+            MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+             </style>
+             """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)             
+            
+            
+            
